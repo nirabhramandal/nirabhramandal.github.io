@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website and publications of Nirabhra Mandal.">
+  <title>Publications | Nirabhra Mandal</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Nirabhra Mandal</span>
+      <span class="brand-subtitle">Postdoctoral Researcher · ECE · Purdue University</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html" >About</a>
+      <a href="publications.html" class="active" aria-current="page">Publications</a>
+      <a href="teaching.html" >Teaching</a>
+      <a href="contact.html" >Contact</a>
+    </div>
+  </nav>
+</header>
+  <main id="main">
+    <section class="section section-tint" id="publications">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Research output</p>
+          <h1>Publications</h1>
+          <!-- <p class="section-description">Search the publication list or filter by publication type. Add or edit papers in <code>publications.json</code>.</p> -->
+          <div class="social-links">
+            <a href="https://scholar.google.com/citations?user=F2m01i8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          </div>
+        </div>
+        <div class="publication-tools">
+          <label class="search-label" for="publication-search">Search publications</label>
+          <input id="publication-search" type="search" placeholder="Search title, author, venue, or keyword…">
+          <div id="type-filters" class="filter-row" aria-label="Filter by publication type">
+            <button class="filter active" data-type="all" aria-pressed="true">All</button>
+            <button class="filter" data-type="preprint" aria-pressed="false">Preprints</button>
+            <button class="filter" data-type="journal" aria-pressed="false">Journal</button>
+            <button class="filter" data-type="conference" aria-pressed="false">Conference</button>
+          </div>
+          <p class="result-count" id="result-count" aria-live="polite"></p>
+        </div>
+        <div id="publication-list" class="publication-list">
+          <p>Loading publications…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Nirabhra Mandal</span>
+    <span>Built with HTML, CSS, and GitHub Pages.</span>
+    <a href="#top">Back to the top ↑</a>
+  </div>
+</footer>
+</body>
+</html>

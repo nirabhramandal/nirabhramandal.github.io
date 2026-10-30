@@ -1,0 +1,43 @@
+
+{
+  "teaching": [
+    {
+      "course": "Robot Motion Planning (MAE 242)",
+      "role": "Teaching Assistant",
+      "institution": "UC San Diego",
+      "term": "Spring 2026"
+    },
+    {
+      "course": "Robot Planning & Estimation (MAE 145)",
+      "role": "Teaching Assistant",
+      "institution": "UC San Diego",
+      "term": "Spring 2026"
+    },
+    {
+      "course": "Robot Motion Planning (MAE 242)",
+      "role": "Teaching Assistant",
+      "institution": "UC San Diego",
+      "term": "Fall 2024"
+    }
+  ],
+  "professionalService": [
+    {
+      "activity": "Journal Reviewer",
+      "items": [
+        "Automatica",
+        "IEEE Transactions on Control of Network Systems",
+        "IEEE Transactions on Automatic Control",
+        "IEEE Open Journal of Control Systems"
+      ]
+    },
+    {
+      "activity": "Conference Reviewer",
+      "items": [
+        "American Control Conference (ACC) '27",
+        "IEEE International Conference on Robotics and Automation (ICRA) '26",
+        "IEEE Conference on Decision and Control (CDC) '25",
+        "IEEE Conference on Decision and Control (CDC) '24"
+      ]
+    }
+  ]
+}

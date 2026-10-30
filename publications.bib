@@ -1,0 +1,156 @@
+@STRING{automatica = "Automatica"}
+@STRING{tase  = "IEEE Transactions on Automation Sciences and Engineering"}
+@STRING{cdc = "{IEEE}  Conf. on Decision and Control"}
+@string{ral=  "IEEE Robotics and Automation Letters"}
+@STRING{tac  = "IEEE Transactions on Automatic Control"}
+@STRING{siamct = "SIAM Conf. on Control and Its Applications (CT)"}
+@STRING{tcns = "IEEE Transactions on Control of Network Systems"}
+@STRING{sv = "Springer"}
+@STRING{acc = "{A}merican {C}ontrol {C}onference"}
+@STRING{arxiv = "ar{X}iv preprint"}
+
+@unpublished{NM-SM:26-auto,
+	author = {N. Mandal and S. Mart{\'\i}nez},
+  	title = {Distributionally Robust {N}ash Equilibrium Seeking with Partial Observations and Distributed Communication},
+  	journal = arxiv,
+  	year = 2026,
+  	note = {Under review},
+	url = {https://arxiv.org/abs/2605.15534},
+	abstract = {In this work, we study stochastic one-shot games where agents' utilities depend on the collective strategy profiles of other agents as well as on some well-behaved randomness. While each decision-maker is agnostic to the random variable's underlying distribution, they have access to finitely many i.i.d. samples generated from it. We consider two cases: one where samples are shared; and another, more special one, where samples are individually accessible. To hedge against the unknown uncertainty, each agent plays a distributionally robust game and aims to maximize the worst-case expected utility over a Wasserstein ball around the sample average distribution. In this setting, we provide conditions under which the game has a non-empty set of distributionally robust Nash equilibria (DRoNE) and then characterize the closeness of the DRoNE set to the Nash equilibria (NE) of the associated stochastic game. We then propose an inertial, supported, better response, ascending supergradient dynamics ISBRAG that seeks the DRoNE's when the distributionally robust game possesses what we term as amicable supergradients. This forms the basis of a distributed version (d-ISBRAG) where agents estimate others' strategies by means of a dynamic consensus subroutine over a directed communication network. While initially the distributed algorithm works in the case where agents have individual samples, we later extend this to the case of shared observations under certain simplifying assumptions. This involves analyzing a tractable reformulation of the distributionally robust optimization problem and solving it in a distributed manner to compute the required supergradients. Simulations illustrate our results.}
+}
+
+% @unpublished{NM-ZL-GJ-SA-JC-SM:26-tase,
+%   	author = {N. Mandal and Z. Li and G. Jing and S. Addams and J. Cort\'es and S. Mart{\'\i}nez},
+%   	title = {Feasibility-Certified Transport Using an Interconnected Robot Team and Distributed Communication},
+%   	journal = tase,
+%   	year = 2026,
+%   	note = {In final stages of preparation}
+% }
+
+@inproceedings{PW-NM-SM-PT:25-cdc,
+  	author = {P. Wankhede and N. Mandal and S. Mart{\'\i}nez and P. Tallapragada},
+  	title = {Multi-Topic Projected Opinion Dynamics for Resource Allocation},
+  	booktitle = cdc,
+  	pages = {3469--3476},
+  	year = 2025,
+  	address = {Rio de Janeiro, Brazil},
+ 	month = {December}
+}
+
+@Article{PW-NM-SM-PT:25-tcns,
+  	author = {P. Wankhede and N. Mandal and S. Mart{\'\i}nez and P. Tallapragada},
+  	title = {Opinion dynamics for utility maximizing agents: {E}xploring the impact of resource penalty},
+  	journal = tcns,
+  	year = 2025,
+  	volume = 12,
+  	number = 1,
+  	pages = {5-17}
+}
+
+@article{NM-AS-CN-SM:26,
+  	author = {N. Mandal and A. Suresh and C. Nieto and S. Mart{\'\i}nez},
+  	title = {Behaviorally Heterogeneous Multi-Agent Exploration Using Distributed Task Allocation},
+  	journal = ral,
+  	year = 2026,
+  	pages = {2983 - 2990},
+	doi = {0.1109/LRA.2026.3655293},
+	url = {https://ieeexplore.ieee.org/abstract/document/11358659},
+	abstract = {We study a problem of multi-agent exploration with behaviorally heterogeneous robots. Each robot maps its surroundings using SLAM and identifies a set of areas of interest (AoIs) or frontiers that are the most informative to explore next. The robots assess the utility of going to a frontier using Behavioral Entropy (BE) and then determine which frontier to visit via a distributed task assignment scheme. We convert the task assignment problem into a non-cooperative game and use a distributed algorithm (d-PBRAG) to converge to the Nash equilibrium, which is shown to be the optimal task allocation solution. For unknown utility cases, we provide robust bounds using approximate rewards. We test our algorithm (which has less communication cost and fast convergence) in simulation, where we explore the effect of sensing radii, sensing accuracy, and heterogeneity among robotic teams with respect to the time taken to complete exploration and path traveled. We observe that having a team of agents with heterogeneous behaviors is beneficial.}
+}
+
+@article{NM-MK-SM:25-tac,
+  	author = {N. Mandal and M. Khajenejad and S. Mart{\'\i}nez},
+  	title = {Distributed Task Allocation for Self-Interested Agents with Partially Unknown Rewards},
+  	journal = tac,
+  	volume = 70,
+  	number = 9,
+  	pages = {6284--6291},
+  	year = 2025
+}
+
+@InProceedings{NM-MK-SM:23-siamct,
+  author = {N. Mandal and M. Khajenejad and S. Mart{\'\i}nez},
+  title = {Control of Discrete-Time {LTI} Systems using Stochastic Ensemble Systems},
+  booktitle = siamct,
+  year = 2023,
+  address = {Philadelphia, PA, USA},
+  month = {July}
+}
+
+@inproceedings{PW-NM-PT:23,
+  title={Opinion dynamics for utility maximizing agents with heterogeneous resources},
+  author={P. Wankhede and N. Mandal and P. Tallapragada},
+  booktitle=acc,
+  pages={1054--1061},
+  year={2023}
+}
+
+@article{NM-PT:21-tcns-ii,
+	author = {N. Mandal and P. Tallapragada},
+  	title = {Dynamics of a Stratified Population of Optimum Seeking Agents on a Network—{P}art {II}: {S}teady-State Analysis},
+  journal = tcns,
+  volume = {9},
+  number = {3},
+  pages = {1116--1127},
+  year = {2021}
+}
+
+@article{NM-PT:21-tcns-i,
+	author = {N. Mandal and P. Tallapragada},
+  	title = {Dynamics of a Stratified Population of Optimum Seeking Agents on a Network—{P}art {I}: {M}odeling and Convergence Analysis},
+    journal = tcns,
+  	volume={9},
+  	number={3},
+  	pages={1104--1115},
+  	year={2021}
+}
+
+@article{NM-PT:20-ifac,
+	author = {N. Mandal and P. Tallapragada},
+  	title = {Evolution of a population of selfish agents on a network},
+  	journal = {IFAC-PapersOnLine},
+  	volume = {53},
+  	number = {2},
+  	pages = {3385--3390},
+  	year = {2020},
+  	publisher={Elsevier},
+  	note = {21st IFAC World Congress, Berlin, Germany}
+}
+
+@inproceedings{NM-BKD-AP-AB:17,
+	author = {N. Mandal and B. K. Dey and A. Paul and A. Bhattacharjee},
+  	title = {A novel three-phase five-level inverter control and its performance analysis for a grid-connected solar {PV} power system},
+  	booktitle = {Int. Conf. on Advances in Energy Research},
+  	pages = {839--850},
+  	year = {2017},
+  	organization = sv
+}
+
+@inproceedings{BKD-NM-AB:17,
+	author = {B. K. Dey and N. Mandal and A. Bhattacharjee},
+  	title = {A Novel {ANN}-{SMC}-Based Maximum Power Point Tracking for Efficient {DC} Stage Conversion of a Solar {PV} Power Plant},
+  	booktitle = {Int. Conf. on Advances in Energy Research},
+  	pages = {803--813},
+  	year = {2017},
+  	organization = sv
+}
+
+@inproceedings{AP-BKD-NM-AB:16,
+	author = {A. Paul and B. K. Dey and N. Mandal and A. Bhattacharjee},
+  	title = {{MATLAB}/{S}imulink model of stand-alone Solar {PV} system with {MPPT} enabled optimized Power conditioning unit},
+  	booktitle = {IEEE 7th Annual Information Technology, Electronics and Mobile Communication Conf. (IEMCON)},
+  	pages = {1--6},
+  	year = {2016},
+  	address = {Vancouver, Canada}
+}
+
+@inproceedings{BKD-IK-NM-AB:16,
+	author = {B. K. Dey and I. Khan and N. Mandal and A. Bhattacharjee},
+  	title = {Mathematical modelling and characteristic analysis of Solar {PV} Cell},
+  	booktitle = {IEEE 7th Annual Information Technology, Electronics and Mobile Communication Conf. (IEMCON)},
+  	pages = {1--5},
+  	year = {2016},
+  	address = {Vancouver, Canada}
+}
+
+

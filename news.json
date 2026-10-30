@@ -1,0 +1,57 @@
+
+[
+  {
+    "date": "2026-10-01",
+    "type": "Professional",
+    "text": "Started a postdoc position at Purdue University."
+  },
+  {
+    "date": "2026-07-22",
+    "type": "Professional",
+    "text": "Successfully defended my Ph.D. Thesis 'Distributionally Robust Nash Equilibrium Seeking With Applications to Task Allocation Among Self-Interested Agents'.",
+    "url": "https://www.proquest.com/openview/fc59ecd187a3183ad311079d0bdef5fb/1?pq-origsite=gscholar&cbl=18750&diss=y",
+    "linkText": "Read more"
+  },
+  {
+    "date": "2026-01-19",
+    "type": "Publication",
+    "text": "Our paper, 'Behaviorally Heterogeneous Multi-Agent Exploration Using Distributed Task Allocation', has been accepted at Robotics and Automation Letters.",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11358659",
+    "linkText": "Read more"
+  },
+  {
+    "date": "2026-05-15",
+    "type": "Research",
+    "text": "Submitted 'Distributionally Robust Nash Equilibrium Seeking with Partial Observations and Distributed Communication' for peer review.",
+    "url": "https://arxiv.org/abs/2605.15534",
+    "linkText": "Read more"
+  },
+  {
+    "date": "2025-10-24",
+    "type": "Talk",
+    "text": "Presented 'Distributionally Robust Nash Seeking with Partial Observations' at the 46th Southern California Control Workshop, UC Irvive."
+  },
+  {
+    "date": "2024-07-24",
+    "type": "Award",
+    "text": "Received the Hay Medal (Best Thesis Award) for my MTech (Res) Thesis 'Dynamics of a Stratified Population of Optimum Seeking Agents on a Network'.",
+    "url": "https://etd.iisc.ac.in/handle/2005/5187",
+    "linkText": "Read more"
+  },
+  {
+    "date": "2023-07-25",
+    "type": "Talk",
+    "text": "Presented 'Control of Discrete-Time LTI Systems Using Stochastic Ensemble Systems' at Siam CT."
+  },
+  {
+    "date": "2023-06-02",
+    "type": "Professional",
+    "text": "Chaired the session 'Agents-Based Systems II' at ACC."
+  },
+  {
+    "date": "2023-06-01",
+    "type": "Talk",
+    "text": "Presented 'Opinion dynamics for utility maximizing agents with heterogeneous resources' at ACC."
+  }
+
+]
