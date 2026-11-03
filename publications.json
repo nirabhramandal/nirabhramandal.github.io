@@ -13,7 +13,7 @@
     "venue": "IEEE Robotics and Automation Letters",
     "journal": "IEEE Robotics and Automation Letters",
     "pages": "2983 - 2990",
-    "doi": "0.1109/LRA.2026.3655293",
+    "doi": "https://doi.org/0.1109/LRA.2026.3655293",
     "url": "https://ieeexplore.ieee.org/abstract/document/11358659",
     "abstract": "We study a problem of multi-agent exploration with behaviorally heterogeneous robots. Each robot maps its surroundings using SLAM and identifies a set of areas of interest (AoIs) or frontiers that are the most informative to explore next. The robots assess the utility of going to a frontier using Behavioral Entropy (BE) and then determine which frontier to visit via a distributed task assignment scheme. We convert the task assignment problem into a non-cooperative game and use a distributed algorithm (d-PBRAG) to converge to the Nash equilibrium, which is shown to be the optimal task allocation solution. For unknown utility cases, we provide robust bounds using approximate rewards. We test our algorithm (which has less communication cost and fast convergence) in simulation, where we explore the effect of sensing radii, sensing accuracy, and heterogeneity among robotic teams with respect to the time taken to complete exploration and path traveled. We observe that having a team of agents with heterogeneous behaviors is beneficial."
   },
@@ -63,7 +63,10 @@
     "booktitle": "IEEE Conf. on Decision and Control",
     "pages": "3469--3476",
     "month": "December",
-    "address": "Rio de Janeiro, Brazil"
+    "address": "Rio de Janeiro, Brazil",
+    "doi": "https://doi.org/10.1109/CDC57313.2025.11312702",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11312702",
+    "abstract": "We propose a model of opinion formation on resource allocation among multiple topics by multiple agents, who are subject to hard budget constraints. We define a utility function for each agent and then derive a projected dynamical system model of opinion evolution assuming that each agent myopically seeks to maximize its utility subject to its constraints. Inter-agent coupling arises from an undirected social network, while inter-topic coupling arises from resource constraints. We show that opinions always converge to the equilibrium set. For special networks with very weak antagonistic relations, the opinions converge to a unique equilibrium point. We further show that the underlying opinion formation game is a potential game. We relate the equilibria of the dynamics and the Nash equilibria of the game and characterize the unique Nash equilibrium for networks with no antagonistic relations. Finally, simulations illustrate our findings."
   },
   {
     "id": "PW-NM-SM-PT:25-tcns",
@@ -80,7 +83,10 @@
     "journal": "IEEE Transactions on Control of Network Systems",
     "volume": "12",
     "number": "1",
-    "pages": "5-17"
+    "pages": "5-17",
+    "doi": "https://doi.org/10.1109/TCNS.2024.3510590",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10772583",
+    "abstract": "We propose a continuous-time nonlinear model of opinion dynamics with utility-maximizing agents connected via a social influence network. A distinguishing feature of the proposed model is the inclusion of an opinion-dependent resource-penalty term in the utilities, which limits the agents from holding opinions of large magnitude. This model is applicable in scenarios where the opinions pertain to the usage of resources, such as money, time, computational resources, etc. Each agent myopically seeks to maximize its utility by revising its opinion in the gradient ascent direction of its utility function, thus leading to the proposed opinion dynamics. We show that for any arbitrary social influence network, opinions are ultimately bounded. For networks with weak antagonistic relations, we show that there exists a globally exponentially stable equilibrium using contraction theory. We establish conditions for the existence of consensus equilibrium and analyze the relative dominance of the agents at consensus. We also conduct a game-theoretic analysis of the underlying opinion formation game, including on Nash equilibria and on prices of anarchy in terms of satisfaction ratios. In addition, we also investigate the oscillatory behavior of opinions in a two-agent scenario. Finally, simulations illustrate our findings."
   },
   {
     "id": "NM-MK-SM:23-siamct",
