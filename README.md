@@ -13,7 +13,7 @@ A responsive static academic website for GitHub Pages. It uses plain HTML, CSS, 
 - `publications.json` — publication records
 - `news.json` — news entries, grouped automatically by year and month
 - `teaching.json` — teaching, professional service, and award entries
-- `assets/` — profile photo and CV
+- `assets/` — profile photo, CV, and `papers/` for publication PDFs
 - `publications.bib` and `scripts/bibtex_to_json.py` — BibTeX source and conversion helper
 
 ## Preview locally (no Jekyll)
@@ -92,7 +92,22 @@ Use valid JSON syntax: double quotes around keys and text values, and no trailin
 
 ## Update publications
 
-Edit `publications.json`. Each publication can include fields such as `title`, `authors`, `year`, `type`, `venue`, `abstract`, `doi`, `url`, `pdf`, `paper`, `arxiv`, `code`, `slides`, and `poster`. Optional fields can be omitted. Supported types include `Preprint`, `Journal`, `Conference`, and `Workshop`.
+Edit `publications.json`. Each publication can include fields such as `title`, `authors`, `year`, `type`, `venue`, `abstract`, `doi`, `url`, `pdf`, `paper`, `arxiv`, `code`, `slides`, and `poster`. Optional fields can be omitted. Use `arxiv` for an arXiv abstract-page URL and `pdf` for a PDF path or URL. For PDFs stored in this repository, place the file in `assets/papers/` and use a relative path such as `assets/papers/my-paper.pdf`. The publication page displays an **arXiv** link when `arxiv` is present and a **PDF** link when `pdf` is present. Both links open in a new tab.
+
+Example BibTeX fields:
+
+```bibtex
+arxiv = {https://arxiv.org/abs/2605.15534},
+pdf = {assets/papers/my-paper.pdf},
+```
+
+After editing `publications.bib`, regenerate `publications.json` with:
+
+```bash
+python scripts/bibtex_to_json.py
+```
+
+Supported types include `Preprint`, `Journal`, `Conference`, and `Workshop`.
 
 When **All** is selected, publications are grouped in this order: preprints, journals, conferences, then any other types. Within each type, the newest year appears first. The Workshop filter button is not displayed.
 

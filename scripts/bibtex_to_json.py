@@ -117,6 +117,8 @@ def convert_entry(entry):
         "note": get("note"),
         "doi": get("doi"),
         "url": get("url"),
+        "arxiv": get("arxiv"),
+        "pdf": get("pdf"),
         "abstract": get("abstract"),
     }
 

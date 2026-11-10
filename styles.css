@@ -47,6 +47,13 @@ a:hover { color: #153d70; }
   margin-top: 3px;
 }
 
+.bengali-name {
+  white-space: nowrap;
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 5px;
+}
 
 .nav-links { display: flex; gap: 24px; align-items: center; }
 .nav-links a { color: var(--ink); text-decoration: none; font-size: .94rem; }
@@ -402,4 +409,45 @@ h3 { color: var(--navy); font-size: 1.12rem; line-height: 1.35; }
 
 .abstract-panel .abstract {
   margin-bottom: 13px;
+}
+
+
+/* Keep the English and Bengali names together on one line. */
+.brand-name {
+  white-space: nowrap;
+}
+
+.brand-name .bengali-name {
+  font-size: 0.68em;
+  white-space: nowrap;
+}
+
+.hero-copy h1 {
+  white-space: nowrap;
+  font-size: clamp(1.55rem, 4.5vw, 3.35rem);
+  letter-spacing: -0.045em;
+}
+
+.hero-copy h1 .bengali-name {
+  font-size: 0.85em;
+  letter-spacing: 0;
+  margin-left: 0.12em;
+}
+
+/* Keep the text column wide enough for the bilingual heading. */
+.hero {
+  grid-template-columns: minmax(0, 1.8fr) minmax(190px, 0.65fr);
+  gap: 36px;
+}
+
+@media (max-width: 760px) {
+  .hero-copy h1 {
+    font-size: clamp(1.45rem, 5.2vw, 2.35rem);
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
 }

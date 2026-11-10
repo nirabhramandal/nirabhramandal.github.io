@@ -284,12 +284,15 @@ function renderPublications() {
     const links = document.createElement("div");
     links.className = "paper-links";
 
+    // Optional links are read directly from the corresponding BibTeX fields.
+    // `pdf` may be a repository-relative path such as
+    // `assets/papers/my-paper.pdf`; `arxiv` should be the arXiv abstract URL.
     const linkFields = [
       ["pdf", "PDF", false],
+      ["arxiv", "arXiv", false],
       ["paper", "Paper", false],
       ["url", "Link", false],
       ["website", "Website", false],
-      ["arxiv", "arXiv", false],
       ["doi", "DOI", true],
       ["code", "Code", false],
       ["slides", "Slides", false],
