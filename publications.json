@@ -29,8 +29,8 @@
     "venue": "arXiv preprint",
     "journal": "arXiv preprint",
     "note": "Under review",
-    "abstract": "In this work, we study stochastic one-shot games where agents' utilities depend on the collective strategy profiles of other agents as well as on some well-behaved randomness. While each decision-maker is agnostic to the random variable's underlying distribution, they have access to finitely many i.i.d. samples generated from it. We consider two cases: one where samples are shared; and another, more special one, where samples are individually accessible. To hedge against the unknown uncertainty, each agent plays a distributionally robust game and aims to maximize the worst-case expected utility over a Wasserstein ball around the sample average distribution. In this setting, we provide conditions under which the game has a non-empty set of distributionally robust Nash equilibria (DRoNE) and then characterize the closeness of the DRoNE set to the Nash equilibria (NE) of the associated stochastic game. We then propose an inertial, supported, better response, ascending supergradient dynamics ISBRAG that seeks the DRoNE's when the distributionally robust game possesses what we term as amicable supergradients. This forms the basis of a distributed version (d-ISBRAG) where agents estimate others' strategies by means of a dynamic consensus subroutine over a directed communication network. While initially the distributed algorithm works in the case where agents have individual samples, we later extend this to the case of shared observations under certain simplifying assumptions. This involves analyzing a tractable reformulation of the distributionally robust optimization problem and solving it in a distributed manner to compute the required supergradients. Simulations illustrate our results.",
-    "arxiv": "https://arxiv.org/abs/2605.15534"
+    "arxiv": "https://arxiv.org/abs/2605.15534",
+    "abstract": "In this work, we study stochastic one-shot games where agents' utilities depend on the collective strategy profiles of other agents as well as on some well-behaved randomness. While each decision-maker is agnostic to the random variable's underlying distribution, they have access to finitely many i.i.d. samples generated from it. We consider two cases: one where samples are shared; and another, more special one, where samples are individually accessible. To hedge against the unknown uncertainty, each agent plays a distributionally robust game and aims to maximize the worst-case expected utility over a Wasserstein ball around the sample average distribution. In this setting, we provide conditions under which the game has a non-empty set of distributionally robust Nash equilibria (DRoNE) and then characterize the closeness of the DRoNE set to the Nash equilibria (NE) of the associated stochastic game. We then propose an inertial, supported, better response, ascending supergradient dynamics ISBRAG that seeks the DRoNE's when the distributionally robust game possesses what we term as amicable supergradients. This forms the basis of a distributed version (d-ISBRAG) where agents estimate others' strategies by means of a dynamic consensus subroutine over a directed communication network. While initially the distributed algorithm works in the case where agents have individual samples, we later extend this to the case of shared observations under certain simplifying assumptions. This involves analyzing a tractable reformulation of the distributionally robust optimization problem and solving it in a distributed manner to compute the required supergradients. Simulations illustrate our results."
   },
   {
     "id": "NM-MK-SM:25-tac",
@@ -46,7 +46,9 @@
     "journal": "IEEE Transactions on Automatic Control",
     "volume": "70",
     "number": "9",
-    "pages": "6284--6291"
+    "pages": "6284--6291",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10964147",
+    "abstract": "This article provides a novel solution to a task allocation problem, by which a group of agents assigns a discrete set of tasks in a distributed manner. In this setting, heterogeneous agents have individual preferences and associated rewards for doing each task; however, these rewards are only known asymptotically. The assignment problem is formulated by means of a combinatorial partition game for known rewards, with no constraints on the number of tasks per agent. We relax this into a weight game, which together with the former, are shown to contain the optimal task allocation in the corresponding set of Nash equilibria (NE). We then propose a projected, best-response, ascending gradient dynamics (PBRAG) that converges to an NE in finite time. This forms the basis of a distributed online version that can deal with a converging sequence of rewards by means of an agreement subroutine. We present simulations that support our results."
   },
   {
     "id": "PW-NM-SM-PT:25-cdc",
@@ -101,7 +103,10 @@
     "venue": "SIAM Conf. on Control and Its Applications (CT)",
     "booktitle": "SIAM Conf. on Control and Its Applications (CT)",
     "month": "July",
-    "address": "Philadelphia, PA, USA"
+    "address": "Philadelphia, PA, USA",
+    "doi": "https://doi.org/10.1137/1.9781611977745.1",
+    "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611977745.1",
+    "abstract": "In this paper, we study the control properties of a new class of stochastic ensemble systems that consists of families of random variables. These random variables provide an increasingly good approximation of an unknown discrete, linear-time invariant (DLTI) system, and can be obtained by a standard, data-driven procedure. Our first result relates the reachability properties of the stochastic ensemble system with that of the limiting DLTI system. We then provide a method to combine the control inputs obtained from the stochastic ensemble systems to compute a control input for the DLTI system. Later, we deal with a particular kind of stochastic ensemble systems generated from realizing Bernoulli random variables. For this, we characterize the variance of the computed state and control. We also do the same for a situation where the data is updated sequentially in a streaming fashion. We illustrate the results numerically in various simulation examples."
   },
   {
     "id": "PW-NM-PT:23",
@@ -115,7 +120,9 @@
     "year": 2023,
     "venue": "American Control Conference",
     "booktitle": "American Control Conference",
-    "pages": "1054--1061"
+    "pages": "1054--1061",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10155869",
+    "abstract": "In this paper we propose a continuous-time non-linear model of opinion dynamics. One of the main novelties of our model is that it costs resources for an agent to express an opinion. Each agent receives a utility based on the complete opinion profile of all agents. Each agent seeks to maximize its own utility function by suitably revising its opinion and the proposed dynamics arises from all agents simultaneously doing this. For the proposed model, we show ultimate boundedness of opinions. We also show stability of equilibrium points and convergence to an equilibrium point when all agents are non-contrarian. We give conditions for the existence of a consensus equilibrium and analyze the role that resources play in determining the social power of the agents in terms of the deviation of the consensus value from the agents’ internal preference. We also carry out a Nash equilibrium analysis of the underlying game and show that when all agents are non-contrarian, the set of equilibria of the opinion dynamics is the same as the set of Nash equilibria for the underlying game. We illustrate our results using simulations."
   },
   {
     "id": "NM-PT:21-tcns-i",
@@ -130,7 +137,10 @@
     "journal": "IEEE Transactions on Control of Network Systems",
     "volume": "9",
     "number": "3",
-    "pages": "1104--1115"
+    "pages": "1104--1115",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9585538",
+    "arxiv": "https://arxiv.org/abs/2012.12599",
+    "abstract": "In this article, we consider a population composed of a continuum of agents that seek to maximize a payoff function by moving on a network. The nodes in the network may represent physical locations or abstract choices. The population is stratified, i.e., agents opting for the same choice may not get the same payoff. In particular, we assume payoff functions with diminishing returns, i.e., agents in “newer” strata of a node receive a smaller payoff compared to “older” strata. In this first part of this two-part work, we model the population dynamics under three choice revision policies, having varying levels of coordination: 1) no coordination and the agents are selfish; 2) coordination among agents in each node; and 3) coordination across the entire population. For the case with selfish agents, we generalize the Smith dynamics to our setting, where we have a stratified population and network constraints. To model nodal coordination, we allow the fraction of population in a node, as a whole, to take the “best response” to the state of the population in the node’s neighborhood. For the case of population-wide coordination, we explore a dynamics where the population evolves according to centralized gradient ascent of the social utility, though constrained by the network. In each case, we show that the dynamics has existence and uniqueness of solutions and also show that the solutions from any initial condition asymptotically converge to the set of Nash equilibria."
   },
   {
     "id": "NM-PT:21-tcns-ii",
@@ -145,7 +155,10 @@
     "journal": "IEEE Transactions on Control of Network Systems",
     "volume": "9",
     "number": "3",
-    "pages": "1116--1127"
+    "pages": "1116--1127",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9599532",
+    "arxiv": "https://arxiv.org/abs/2012.12604",
+    "abstract": "In this second part of our work, we study the steady state of the population and the social utility for a general class of dynamics that converge to the set of Nash equilibria and follow a certain positive correlation property. This class of dynamics includes the three dynamics introduced in the first part. We provide sufficient conditions on the network based on a maximum payoff density parameter of each node under which there exists a unique Nash equilibrium. We then utilize the positive correlation properties of the dynamics to reduce the flow graph in order to provide an upper bound on the steady-state social utility. Finally, we extend the idea behind the sufficient condition for the existence of a unique Nash equilibrium to partition the graph appropriately in order to provide a lower bound on the steady-state social utility. We also illustrate interesting cases as well as our results using simulations."
   },
   {
     "id": "NM-PT:20-ifac",
@@ -162,7 +175,9 @@
     "number": "2",
     "pages": "3385--3390",
     "publisher": "Elsevier",
-    "note": "21st IFAC World Congress, Berlin, Germany"
+    "note": "21st IFAC World Congress, Berlin, Germany",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2405896320320966",
+    "abstract": "In this work, we consider a population composed of a continuum of agents that seek to selfishly minimize a cost function by moving on a network. The nodes in the network may represent physical locations or abstract choices. Taking inspiration from how water distributes itself in a system of connected tanks of varying heights, we formulate a best response dynamics for the population. In this dynamics, the population in each node simultaneously seeks to redistribute itself according to the ‘best response’ to the state of the population in the node’s neighborhood. We provide an algorithm to determine the best response as a function of the state of the population. We then show that given the state of the population, the best response is unique. For the continuous time version of the best response dynamics, we show asymptotic convergence to an equilibrium point for an arbitrary initial condition. We then explore a second dynamics, in which the population evolves according to centralized gradient descent of the social cost. Again, we show asymptotic convergence for an arbitrary initial condition. We illustrate our results through simulations."
   },
   {
     "id": "BKD-NM-AB:17",
